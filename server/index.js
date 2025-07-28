@@ -6,7 +6,7 @@ import router from "./api/router.js";
 import { DEFAULT_TRACKS_LOCATION } from "./utils/constant.js";
 import Initializer from "./services/initializer.js";
 
-const PORT = 9126;
+const PORT = process.env.PORT || 9126;
 const app = express();
 
 const server = http.createServer(app);
