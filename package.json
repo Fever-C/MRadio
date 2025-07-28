@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "mkdir -p cache data logs media/tracks media/fallback config && node server"
+    "start": "mkdir -p cache data logs media/tracks media/fallback config && node server/index.js"
   },
   "dependencies": {
     "axios": "^1.7.9",
